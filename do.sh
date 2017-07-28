@@ -24,4 +24,4 @@ docker run \
     --env http_proxy="$http_proxy" \
     --env https_proxy="$https_proxy" \
     $IMG \
-    /scripts/build-abi.sh && /scripts/cmp-abi.sh
+    /scripts/build-abi.sh

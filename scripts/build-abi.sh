@@ -40,3 +40,5 @@ for ver in 3.0.0 3.1.0 3.2.0 3.3.0-rc master ; do
     build $ver
     dump $ver
 done
+
+/scripts/cmp-abi.sh
